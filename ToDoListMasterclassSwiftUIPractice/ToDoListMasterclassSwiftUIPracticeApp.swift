@@ -6,9 +6,12 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct ToDoListMasterclassSwiftUIPracticeApp: App {
+    
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
