@@ -11,6 +11,9 @@ import FirebaseCore
 @main
 struct ToDoListMasterclassSwiftUIPracticeApp: App {
     
+    init() {
+        FirebaseApp.configure()
+    }
     
     var body: some Scene {
         WindowGroup {
